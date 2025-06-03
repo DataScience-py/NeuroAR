@@ -6,8 +6,11 @@
     - Get audio input from microphone
     - Convert audio to text
 
+###
+    - Preprocess text
+
 ### LargeLanguageModel
-    - Process text and generate response
+    - Generate response from llm
 
 ### TextToSpeech
     - Convert text to audio

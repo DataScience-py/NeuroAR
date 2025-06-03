@@ -1,41 +1,50 @@
 <mxfile host="65bd71144e">
     <diagram id="nWbywjjz72G12xoE5ji_" name="Page-1">
-        <mxGraphModel dx="749" dy="1637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="621" dy="1545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="3" target="6" edge="1">
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="18">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="STT" style="text;strokeColor=#82b366;align=center;fillColor=#d5e8d4;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="333" y="-1086" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="333" y="-1086" width="60" height="31" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="TTS" style="text;strokeColor=#82b366;align=center;fillColor=#d5e8d4;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="335" y="-920" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="333" y="-920" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="6" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="LLM" style="text;strokeColor=#82b366;align=center;fillColor=#d5e8d4;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="333" y="-1003" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="333" y="-978" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="3">
+                <mxCell id="17" style="edgeStyle=none;html=1;" parent="1" source="11" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="GET Audio and Translate to TEXT" style="text;strokeColor=none;align=center;fillColor=#6666FF;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="11" value="GET Audio and Translate to TEXT" style="text;strokeColor=none;align=center;fillColor=#6666FF;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="427" y="-1086" width="195" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="6">
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="12" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="GET Text from STT module and generate prompt and send LLM" style="text;strokeColor=none;align=center;fillColor=#6666FF;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="425" y="-1003" width="195" height="30" as="geometry"/>
+                <mxCell id="12" value="GET Text from STT module and generate prompt and send LLM" style="text;strokeColor=none;align=center;fillColor=#6666FF;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="427" y="-978" width="195" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="4">
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="13" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="GET TEXT from LLM and generate audio from Text" style="text;strokeColor=none;align=center;fillColor=#6666FF;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="13" value="GET TEXT from LLM and generate audio from Text" style="text;strokeColor=none;align=center;fillColor=#6666FF;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="430" y="-920" width="191" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="TextAnalyze" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="328" y="-1039" width="70" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Analyze text from STT" style="text;strokeColor=#6c8ebf;align=center;fillColor=light-dark(#6666ff, #94949b);html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="-1039" width="197" height="35" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
